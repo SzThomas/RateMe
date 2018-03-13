@@ -1,0 +1,6 @@
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\System.IO.Compression.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.UI\bin\roslyn\VBCSCompiler.exe
