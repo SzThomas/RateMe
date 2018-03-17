@@ -13,6 +13,32 @@ namespace RateMe.UI.Controllers
     {
         private MovieService ms = new MovieService(new MovieDataRepository());
 
+        public ActionResult Search()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public JsonResult Search(string text)
+        {
+            try
+            {
+                List<Movie> movies = new List<Movie>();
+                movies = ms.GetAllMovies(text);
+
+                movies.Add(new Movie()
+                {
+                    Title = "Title"
+                });
+
+                return Json(movies, JsonRequestBehavior.AllowGet);
+            }
+            catch 
+            {
+                return null;
+            }
+        }
+
         // GET: Movie
         public ActionResult Index()
         {

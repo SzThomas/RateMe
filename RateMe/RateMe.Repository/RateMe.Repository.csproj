@@ -51,8 +51,9 @@
     <Compile Include="Entity\MovieDataEntity.cs" />
     <Compile Include="Entity\RatingEntity.cs" />
     <Compile Include="MovieDataRepository.cs" />
-    <Compile Include="Ports\IRepository.cs" />
-    <Compile Include="Ports\Repository.cs" />
+    <Compile Include="Ports\IMovieDataRepository.cs" />
+    <Compile Include="Repo\IRepository.cs" />
+    <Compile Include="Repo\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RatingRepository.cs" />
   </ItemGroup>

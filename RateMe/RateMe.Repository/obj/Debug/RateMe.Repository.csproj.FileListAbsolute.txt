@@ -1,0 +1,10 @@
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\RateMe.Repository.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\RateMe.Repository.pdb
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\Dapper.Contrib.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\Dapper.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\Dapper.xml
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\bin\Debug\Dapper.Contrib.xml
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\obj\Debug\RateMe.Repository.csprojResolveAssemblyReference.cache
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\obj\Debug\RateMe.Repository.csproj.CoreCompileInputs.cache
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\obj\Debug\RateMe.Repository.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Repository\obj\Debug\RateMe.Repository.pdb

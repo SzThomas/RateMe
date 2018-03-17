@@ -10,6 +10,12 @@ namespace RateMe.BLL.Ports
 {
     public interface IMovieService
     {
+        Movie GetMovieById(int id);
+
+        List<Movie> GetAllMovies();
+
         void Save(Movie task);
+
+        bool Delete(int movieId);
     }
 }

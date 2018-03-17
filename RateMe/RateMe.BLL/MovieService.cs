@@ -1,7 +1,10 @@
-﻿using RateMe.BLL.Ports;
+﻿using AutoMapper;
+using RateMe.BLL.Ports;
 using RateMe.Core.Models;
 using RateMe.Repository;
 using RateMe.Repository.Entity;
+using RateMe.Repository.Ports;
+using RateMe.Repository.Repo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -53,6 +56,20 @@ namespace RateMe.BLL
             foreach(var movie in movies)
             {
                 listOfMovies.Add(ConvertToMovie(movie));
+            }
+            return listOfMovies;
+        }
+
+        public List<Movie> GetAllMovies(string searchText)
+        {
+            var movies = _movieDataRepository.GetAll();
+            List<Movie> listOfMovies = new List<Movie>();
+            foreach (var movie in movies)
+            {
+                if (movie.Title.ToLower().Contains(searchText.ToLower()) || movie.Genres.ToLower().Contains(searchText.ToLower()))
+                {
+                    listOfMovies.Add(ConvertToMovie(movie));
+                }
             }
             return listOfMovies;
         }

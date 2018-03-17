@@ -1,0 +1,17 @@
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.BLL.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.BLL.pdb
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\AutoMapper.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.Core.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.Repository.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\Dapper.Contrib.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\Dapper.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.Core.pdb
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.Core.dll.config
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\RateMe.Repository.pdb
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\AutoMapper.xml
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\Dapper.Contrib.xml
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\bin\Debug\Dapper.xml
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\obj\Debug\RateMe.BLL.csprojResolveAssemblyReference.cache
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\obj\Debug\RateMe.BLL.csproj.CoreCompileInputs.cache
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\obj\Debug\RateMe.BLL.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.BLL\obj\Debug\RateMe.BLL.pdb

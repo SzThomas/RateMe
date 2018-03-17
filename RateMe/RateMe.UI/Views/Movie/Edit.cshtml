@@ -5,11 +5,53 @@
 }
 
 <h2>Edit</h2>
-@using (Html.BeginForm("Edit", "Movie", FormMethod.Post))
-{
-    @Html.LabelFor(m => m.Title, "Title")
-    @Html.TextBoxFor(m => m.Title)
-    <input type="submit" value="Save changes"/>
-}
+
+<div>
+    @using (Html.BeginForm("Edit", "Movie", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.ValidationSummary(false)
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(m => m.Title)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control" }) 
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(m => m.Runtime, "Runtime")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(m => m.Runtime, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(m => m.Runtime, "Release Date")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(m => m.ReleaseDate, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(m => m.Runtime, "Genres")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(m => m.Genres, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(m => m.Runtime, "Votes")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(m => m.Votes, new { @class = "form-control" })
+            </div>
+        </div>
+        <input type="submit" value="Save changes" />
+    }
+</div>
 
 

@@ -15,7 +15,7 @@ namespace RateMe.Core.Models
 
         public string Runtime { get; set; }
 
-        public DateTime? ReleaseDate { get; set; }
+        public string ReleaseDate { get; set; }
 
         public string Genres { get; set; }
 

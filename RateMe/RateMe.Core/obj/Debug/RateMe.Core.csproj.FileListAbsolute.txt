@@ -1,0 +1,6 @@
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\bin\Debug\RateMe.Core.dll.config
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\bin\Debug\RateMe.Core.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\bin\Debug\RateMe.Core.pdb
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\obj\Debug\RateMe.Core.csproj.CoreCompileInputs.cache
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\obj\Debug\RateMe.Core.dll
+D:\Programozás\GitHub\RateMe\RateMe\RateMe.Core\obj\Debug\RateMe.Core.pdb
