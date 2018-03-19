@@ -1,7 +1,65 @@
-﻿
+﻿@model RateMe.UI.Models.MovieModel
+
 @{
     ViewBag.Title = "Create";
 }
 
+@Scripts.Render("~/bundles.movie")
+
 <h2>Create</h2>
 
+
+<div>
+    @using (Html.BeginForm("Create", "Movie", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.ValidationSummary(false)
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(tm => tm.Title)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(tm => tm.Title, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(tm => tm.Runtime)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextAreaFor(tm => tm.Runtime, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(tm => tm.ReleaseDate)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextAreaFor(tm => tm.ReleaseDate, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(tm => tm.Votes)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(tm => tm.Votes, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 control-label">
+                @Html.LabelFor(tm => tm.Genres)
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBoxFor(tm => tm.Genres, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4">
+                <button type="button" id="btn_Cancel_Create" class="btn btn-primary" onclick="cancelTaskCreate()">Cancel</button>
+            </div>
+            <div class="col-sm-4">
+                <button type="submit" id="btn_Save_Create" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    }
+</div>

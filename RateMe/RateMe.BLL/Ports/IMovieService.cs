@@ -14,7 +14,7 @@ namespace RateMe.BLL.Ports
 
         List<Movie> GetAllMovies();
 
-        void Save(Movie task);
+        void Save(Movie movie);
 
         bool Delete(int movieId);
     }

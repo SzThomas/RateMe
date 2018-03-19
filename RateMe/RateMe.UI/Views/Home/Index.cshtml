@@ -3,30 +3,32 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>RateMe</h1>
+    <p class="lead">Repertoriu online cu o parte din cele mai populare filme de pe IMDb.</p>
+    <img src="~/Dollarphotoclub.jpg" alt="Dollarphotoclub" border="1" style="width:100%; height:30%;">
+    <p><a href="http://www.imdb.com/" class="btn btn-primary btn-lg">Learn more from IMDb &raquo;</a></p>
 </div>
+    
 
 <!--"~/Content/" + model.Poster;-->
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <h2>Movie List</h2>
+        <img src="~/todo_list1600.png" alt="todo_list1600" border="1" style="width:100%; height:65%;">
+            <p>Top Rated Movies</p>
+            <p>Top 100 as rated by IMDb Users</p>
+        <li>@Html.ActionLink("Movie List", "Index", "Movie")</li>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Search for movies</h2>
+        <img src="~/view_file1600.png" alt="view_file1600" border="1" style="width:100%; height:65%;">
+        <p>Search for top rated movies.</p>
+        <li>@Html.ActionLink("Search", "Search", "Movie")</li>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Add new movie</h2>
+        <img src="~/1600.png" alt="1600" border="1" style="width:100%; height:65%;">
+        <p></p>
+        <li>@Html.ActionLink("Add New", "Create", "Movie")</li>
     </div>
 </div>

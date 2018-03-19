@@ -1,10 +1,9 @@
 ﻿using RateMe.BLL;
 using RateMe.Core.Models;
 using RateMe.Repository;
+using RateMe.UI.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace RateMe.UI.Controllers
@@ -56,17 +55,32 @@ namespace RateMe.UI.Controllers
         // GET: Movie/Create
         public ActionResult Create()
         {
-                
-            return View();
+            var model = new MovieModel();
+
+            return View(model);
         }
 
         // POST: Movie/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(MovieModel movieModel)
         {
             try
             {
                 // TODO: Add insert logic here
+
+                if(ModelState.IsValid)
+                {
+                    var bllModel = new Movie {
+                        Id = movieModel.Id,
+                        Genres = movieModel.Genres,
+                        ReleaseDate = movieModel.ReleaseDate,
+                        Runtime = movieModel.Runtime,
+                        Title = movieModel.Title,
+                        Votes = movieModel.Votes
+                    };
+
+                    ms.Save(bllModel);
+                }
 
                 return RedirectToAction("Index");
             }

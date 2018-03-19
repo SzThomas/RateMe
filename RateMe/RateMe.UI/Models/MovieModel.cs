@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace RateMe.UI.Models
 {
@@ -23,8 +24,7 @@ namespace RateMe.UI.Models
 
         [Required(ErrorMessage = "Please Enter ReleaseDate")]
         [Display(Name = "ReleaseDate")]
-        [DataType(DataType.Date)]
-        public DateTime? ReleaseDate { get; set; }
+        public string ReleaseDate { get; set; }
 
         [Required(ErrorMessage = "Please Enter Genres")]
         [Display(Name = "Genres")]
@@ -33,5 +33,7 @@ namespace RateMe.UI.Models
         public string Genres { get; set; }
 
         public int Votes { get; set; }
+
+        public List<SelectListItem> MovieList { get; set; }
     }
 }

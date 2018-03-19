@@ -69,10 +69,10 @@ namespace RateMe.UI.Controllers
                 return false;
             }
         }
-        //public class AllMovies
-        //{
-        //    public List<Movie> Movies { get; set; }
-        //    public bool HasMoreResults { get; set; }
-        //}
+        public class AllMovies
+        {
+            public List<Movie> Movies { get; set; }
+            public bool HasMoreResults { get; set; }
+        }
     }
 }
