@@ -28,7 +28,7 @@ namespace RateMe.UI.Models
 
         [Required(ErrorMessage = "Please Enter Genres")]
         [Display(Name = "Genres")]
-        [MinLength(5), MaxLength(30)]
+        [MinLength(5), MaxLength(250)]
         [DataType(DataType.Text)]
         public string Genres { get; set; }
 
